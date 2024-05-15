@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--joshua demskie midterm web dev 2
+
+    <!--calls appropriate libraries and files -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="app.js"></script> 
+</head>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl" class="background">
+    <p>Please enter two numbers and then choose an operation by clicking on the appropriate button:</p>
+    <p>First number: <input type="text" ng-model="firstNumber"></p>
+    <p>Second number: <input type="text" ng-model="secondNumber"></p>
+    
+    <!--mathematic operation buttons-->
+    <button ng-click="add()">Add</button>
+    <button ng-click="subtract()">Subtract</button>
+    <button ng-click="multiply()">Multiply</button>
+    <button ng-click="divide()">Divide</button>
+    <button ng-click="modulus()">Modulus</button>
+    
+    <!-- Display the result -->
+    <p>Result: {{ result }}</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+/* joshua demskie midterm web dev 2*/
+
+.background {
+    background-color: blue;   	/* sets div to blue*/
+    color: white; 	/* sets chat to white*/
+	
+	/*   alligns horizontally/vertically    */
+  margin: auto;
+  width: 50%;
+  padding: 70px ;
+  
+
+}
+
+body {
+    background-color: black; /* Set the background color of the entire page to black */
+}
